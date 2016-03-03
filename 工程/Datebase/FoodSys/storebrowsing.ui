@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StoreBrowsing</class>
+ <widget class="QWidget" name="StoreBrowsing">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>390</y>
+     <width>401</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="UpdateButton">
+      <property name="text">
+       <string>刷新</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ReadHistoryButton">
+      <property name="text">
+       <string>历史订单</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="PreviousButton">
+      <property name="text">
+       <string>上一页</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="NextButton">
+      <property name="text">
+       <string>下一页</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ReturnButton">
+      <property name="text">
+       <string>返回</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="ShopDetail">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>30</y>
+     <width>381</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>商店1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>商店2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>商店3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>商店4</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>商店5</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>商店6</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>商店7</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>商店8</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>商店9</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>商店10</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>商店</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>介绍</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>客户评价</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>60</y>
+     <width>77</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="EnterStore_1">
+      <property name="text">
+       <string>进去瞧瞧</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="EnterStore_2">
+      <property name="text">
+       <string>进去瞧瞧</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="EnterStore_3">
+      <property name="text">
+       <string>进去瞧瞧</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="EnterStore_4">
+      <property name="text">
+       <string>进去瞧瞧</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="EnterStore_5">
+      <property name="text">
+       <string>进去瞧瞧</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="EnterStore_6">
+      <property name="text">
+       <string>进去瞧瞧</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="EnterStore_7">
+      <property name="text">
+       <string>进去瞧瞧</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="EnterStore_8">
+      <property name="text">
+       <string>进去瞧瞧</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="EnterStore_9">
+      <property name="text">
+       <string>进去瞧瞧</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="EnterStore_10">
+      <property name="text">
+       <string>进去瞧瞧</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

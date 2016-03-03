@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShoopingCart</class>
+ <widget class="QWidget" name="ShoopingCart">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="DishDetail">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>60</y>
+     <width>441</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>美食1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食4</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食5</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食6</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食7</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食8</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>美食名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>单价</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>数量</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>总价</string>
+    </property>
+   </column>
+   <item row="8" column="2">
+    <property name="text">
+     <string>合计</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>511</x>
+     <y>91</y>
+     <width>158</width>
+     <height>228</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="ThrowButton_1">
+      <property name="text">
+       <string>太多了</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="More_1">
+      <property name="text">
+       <string>再来一顿</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="ThrowButton_2">
+      <property name="text">
+       <string>太多了</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="More_2">
+      <property name="text">
+       <string>再来一顿</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="ThrowButton_3">
+      <property name="text">
+       <string>太多了</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="More_3">
+      <property name="text">
+       <string>再来一顿</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="ThrowButton_4">
+      <property name="text">
+       <string>太多了</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="More_4">
+      <property name="text">
+       <string>再来一顿</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="ThrowButton_5">
+      <property name="text">
+       <string>太多了</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QPushButton" name="More_5">
+      <property name="text">
+       <string>再来一顿</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="ThrowButton_6">
+      <property name="text">
+       <string>太多了</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QPushButton" name="More_6">
+      <property name="text">
+       <string>再来一顿</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QPushButton" name="ThrowButton_7">
+      <property name="text">
+       <string>太多了</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QPushButton" name="More_7">
+      <property name="text">
+       <string>再来一顿</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QPushButton" name="ThrowButton_8">
+      <property name="text">
+       <string>太多了</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QPushButton" name="More_8">
+      <property name="text">
+       <string>再来一顿</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>380</y>
+     <width>320</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="UpdateButton">
+      <property name="text">
+       <string>刷新</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="PayBillButton">
+      <property name="text">
+       <string>买单</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="CanelBillButton">
+      <property name="text">
+       <string>取消订单</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ReturnButton">
+      <property name="text">
+       <string>返回</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

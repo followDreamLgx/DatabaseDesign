@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GoodBrowsing</class>
+ <widget class="QWidget" name="GoodBrowsing">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="FoodDetail">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>351</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>美食1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食4</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食5</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食6</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食7</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食8</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食9</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>美食10</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>菜名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>价格</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>月销售量</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>430</y>
+     <width>482</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="UpdateButton">
+      <property name="text">
+       <string>刷新</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="PreviousButton">
+      <property name="text">
+       <string>上一页</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="NextButton">
+      <property name="text">
+       <string>下一页</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ReadOrderButton">
+      <property name="text">
+       <string>查看订单</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="PayBillButton">
+      <property name="text">
+       <string>买单</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ReturnButton">
+      <property name="text">
+       <string>返回</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>100</y>
+     <width>77</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QPushButton" name="FoodToMenuButton_1">
+      <property name="text">
+       <string>加入菜单</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="FoodToMenuButton_2">
+      <property name="text">
+       <string>加入菜单</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="FoodToMenuButton_3">
+      <property name="text">
+       <string>加入菜单</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="FoodToMenuButton_4">
+      <property name="text">
+       <string>加入菜单</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="FoodToMenuButton_5">
+      <property name="text">
+       <string>加入菜单</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="FoodToMenuButton_6">
+      <property name="text">
+       <string>加入菜单</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="FoodToMenuButton_7">
+      <property name="text">
+       <string>加入菜单</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="FoodToMenuButton_8">
+      <property name="text">
+       <string>加入菜单</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="FoodToMenuButton_9">
+      <property name="text">
+       <string>加入菜单</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="FoodToMenuButton_10">
+      <property name="text">
+       <string>加入菜单</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>layoutWidget</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>FoodDetail</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
